@@ -1,0 +1,90 @@
+a {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:link{
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    background: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 500ms;
+    box-shadow: 4px 4px 4px #888888;
+}
+
+a:active {
+    color: black;
+}
+/* main styling */
+.head{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: right;
+    margin-right: 1em;.
+    height: border-box;
+}
+body{
+    background: url(../images/bg-01.jpg) no-repeat center center fixed #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.home{
+    border-radius: 300px;
+}
+.name{
+    font-style: italic;
+    font-size: xx-large;
+    text-align: left;
+    margin-left: 10%;
+}
+.introduction{
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+    font-size:3em;
+    background: whitesmoke;
+    opacity: 0.7;
+}
+.NEWS{
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+    font-size:3em;
+    background: whitesmoke;
+    opacity: 0.7;
+
+}
+
+
+.name{
+    font-family: Experimental sans-serif;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: border-box;
+
+}
+footer{
+
+    background:white;
+    color: black;
+    opacity: 0.7;
+    text-align: center;
+}
