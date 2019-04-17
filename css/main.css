@@ -14,41 +14,60 @@ a:visited {
 }
 
 a:hover {
-    color: white;
-    background: black;
+    color: black;
+    background: whitesmoke;
     cursor: pointer;
     transform: scale(1.1);
     transition: all 500ms;
-    box-shadow: 4px 4px 4px #888888;
+    box-shadow: 4px 4px 4px #ffffff;
+    display: inline-block;
 }
 
 a:active {
     color: black;
 }
+
+.body{
+    margin: 0;
+
+}
 /* main styling */
 .head{
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: right;
-    margin-right: 1em;.
-    height: border-box;
+    position: fixed;
+    height: 80px;
 }
+.sign{
+    display: inline-block;
+    text-align: right;
+}
+
 body{
+
     background: url(../images/bg-01.jpg) no-repeat center center fixed #000;
+    position: relative;
+    z-index: 999;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0;
+    transition-property: z-index ;
+    transition-duration: 2s;
+
 }
 .home{
+    right: 100px;
     border-radius: 300px;
+    display: inline-block;
 }
-.name{
+.home:hover{
+    border-radius: 300px;
+    cursor: pointer;
+}
+.name {
     font-style: italic;
-    font-size: xx-large;
-    text-align: left;
-    margin-left: 10%;
+    height: 120px;
+
 }
 .introduction{
     text-align: center;
@@ -65,24 +84,15 @@ body{
     font-size:3em;
     background: whitesmoke;
     opacity: 0.7;
-
+    margin-bottom: 1rem;
 }
 
-
-.name{
-    font-family: Experimental sans-serif;
-}
-
-#footer{
-    position: absolute;
+footer{
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
     height: border-box;
-
-}
-footer{
-
     background:white;
     color: black;
     opacity: 0.7;
