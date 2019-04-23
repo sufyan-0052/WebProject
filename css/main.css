@@ -3,11 +3,11 @@ a{
     cursor: pointer;
     font-style: italic;
     font-weight: bold;
-}
-a:hover{
-    box-shadow: 2px 2px 2px;
     text-decoration: none;
     text-decoration: -moz-none;
+}
+a:hover{
+    transform-style: inherit;
 }
 a:focus {
     outline: none !important;
@@ -73,7 +73,9 @@ body{
     font-size:3em;
     width: 700px;
     margin: 5px;
+    opacity: 0;
 }
+
 .news-intro{
     text-align: center;
     justify-content: center;
@@ -118,5 +120,8 @@ p .c-right{
 }
 /* Contact page ------------------------------------------------------ */
 
+.contact{
+    font-family: abel, sans-serif;
+}
 
 /*  Register page ---------------------------------------------*/
