@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Register SUFI 1</title>
-    <link rel="icon" type="image/png" href="images/icons/sufi1icon.png"/>
+    <link rel="icon" type="image/png" href="images/icons/sufi1icon.png">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">\
     <link rel="stylesheet" type="text/css" href="css/icons.css">
+    <link rel="stylesheet" type="text/css" href="css/min.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
 
 </head>
 <body>
@@ -14,19 +17,67 @@
 
 <div class="head">
     <a class="home" href="index.html" style="color: whitesmoke" translate="yes">
-        <img  src="images/icons/S1logo.jpg" alt="Home" title="Logo/Home" width="48px" height="48px" style="color: transparent" >
+        <img  src="images/icons/sufi1icon.png" alt="Home" title="Home" style="color: transparent" >
     </a>
     <div class="name" >
         SUFI 1
     </div>
     <div class="sign">
         Already Have Account:
-        <a href="login.html" style="color: black">Login </a>|
+        <a href="login.html" style="color: black">Login </a>
     </div>
 </div>
 
 
 <div class="body">
+
+    <div class="reg-container">
+
+        <div class="wrap-reg">
+
+            <form class="register">
+
+                        <span class="login-form-title p-b-37">
+                            Register
+                        </span>
+
+                <div class="wrap-input validate-input-e m-b-20" data-validate="Enter First Name">
+                    <input class="input" type="text" name="firstName" placeholder="First name">
+                    <span class="focus-input"></span>
+                </div>
+
+                <div class="wrap-input validate-input-e m-b-20" data-validate="Enter email">
+                    <input class="input" type="text" name="email" placeholder="email">
+                    <span class="focus-input"></span>
+                </div>
+
+                <div class="wrap-input validate-input-e m-b-20" data-validate="Select a Username">
+                    <input class="input" type="text" name="username" placeholder="username">
+                    <span class="focus-input"></span>
+                </div>
+
+                <div class="wrap-input validate-input-p m-b-25" data-validate = "Enter password">
+                    <input class="input" type="password" name="pass" placeholder="password">
+                    <span class="focus-input"></span>
+                </div>
+
+                <div class="wrap-input validate-input-e m-b-20" data-validate="ReEnter password">
+                    <input class="input" type="password" name="pass" placeholder="ReEnter password">
+                    <span class="focus-input"></span>
+                </div>
+
+                <div class="w-login-form-btn">
+                    <button class="login-form-btn">
+                        Register
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
 
 </div>
 

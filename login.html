@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login SUFI 1</title>
     <link rel="icon" type="image/png" href="images/icons/sufi1icon.png"/>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/icons.css">
+    <link rel="stylesheet" type="text/css" href="css/min.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+
+
+
 
 </head>
 <body>
@@ -14,7 +20,7 @@
 
 <div class="head">
     <a class="home" href="index.html" style="color: whitesmoke" translate="yes">
-        <img  src="images/icons/S1logo.jpg" alt="Home" title="Logo/Home" width="48px" height="48px" style="color: transparent" >
+        <img  src="images/icons/sufi1icon.png" alt="Home" title="Home" style="color: transparent" >
     </a>
     <div class="name" >
         SUFI 1
@@ -25,10 +31,38 @@
     </div>
 </div>
 
-
 <div class="body">
 
+    <div class="login-container">
 
+        <div class="wrap-login">
+        <form class="login">
+
+                        <span class="login-form-title p-b-37">
+                            Log In
+                        </span>
+
+            <div class="wrap-input validate-input-e m-b-20" data-validate="Enter username or email">
+                <input class="input" type="text" name="username" placeholder="username or email">
+                <span class="focus-input"></span>
+            </div>
+
+            <div class="wrap-input validate-input-p m-b-25" data-validate = "Enter password">
+                <input class="input" type="password" name="pass" placeholder="password">
+                <span class="focus-input"></span>
+            </div>
+
+            <div class="w-login-form-btn">
+                <button class="login-form-btn">
+                    Log in
+                </button>
+            </div>
+
+            </form>
+
+        </div>
+
+    </div>
 
 </div>
 
