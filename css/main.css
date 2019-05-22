@@ -110,6 +110,10 @@ a:focus {
 
 /* main styling-------------------------------------------------------- */
 
+
+/*Index page*/
+
+
 /*Body Starts*/
 .body{
     margin: 0;
@@ -165,7 +169,6 @@ body{
 .welcome{
     text-align: center;
     margin: 3px;
-    height: 50vh;
     font-size: 6rem;
 
 }
@@ -180,14 +183,13 @@ body{
     background-color: black;
     text-align: center;
     font-size: 4rem;
-    height: 50vh;
+
 }
 
 .news-intro{
     margin-top: 10px;
     text-align: center;
     justify-content: center;
-    height: 50vh;
 }
 
 .news-intro .news-link{
@@ -500,3 +502,15 @@ footer{
     -o-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 1);
 }
 /*fg button ends*/
+
+
+/* NEWS page */
+
+.intro{
+    display: flex;
+    font-size: 3rem;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px;
+}
