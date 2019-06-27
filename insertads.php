@@ -1,7 +1,7 @@
 <?php
-/*if(!isset($_SESSION['user_email'])){
+if(!isset($_SESSION['user_email'])){
     header('location: login.php?not_user=You are not a User!');
-}*/
+}
 
 if (isset($_POST['insert_ads'])) {
     //getting text data from the fields
