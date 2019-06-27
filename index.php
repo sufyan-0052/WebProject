@@ -4,6 +4,8 @@
 <head>
     <meta name="keywords" content="sufi 1,1's,1's world, sufi.com,sufi1.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>SUFI 1's</title>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="images/icons/sufi1icon.png"/>
